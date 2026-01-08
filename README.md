@@ -32,9 +32,9 @@ When application container is running, open Postman and create new request. Dock
 
 ### Endpoints
 
-* **GET**  - */api/get-repositories* - fetch all public repositories for given owner, that are not forks
+* **GET**  - */api/repositories* - fetch all public repositories for given owner, that are not forks
 
-*url:* http://localhost:8090/api/get-repositories?ownerLogin=OWNERLOGIN where OWNERLOGIN shall be replaced with actual owner login.
+*url:* http://localhost:8090/api/repositories?ownerLogin=OWNERLOGIN where OWNERLOGIN shall be replaced with actual owner login.
 
 
 Postman image for given endpoint:
