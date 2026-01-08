@@ -8,7 +8,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping(value = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
-public class GithubController {
+class GithubController {
     private final GithubService githubService;
 
     @GetMapping(value = "/repositories")

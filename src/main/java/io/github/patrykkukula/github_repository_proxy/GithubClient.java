@@ -21,7 +21,7 @@ import static io.github.patrykkukula.github_repository_proxy.GithubClientConstan
 @Component
 @RequiredArgsConstructor
 @Slf4j
-public class GithubClient {
+class GithubClient {
     private final RestTemplate restTemplate;
 
     /**

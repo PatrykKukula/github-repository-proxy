@@ -1,6 +1,6 @@
 package io.github.patrykkukula.github_repository_proxy;
 
-public class GithubClientConstants {
+class GithubClientConstants {
     private GithubClientConstants (){}
 
     static final String ACCEPT_HEADER = "Accept";

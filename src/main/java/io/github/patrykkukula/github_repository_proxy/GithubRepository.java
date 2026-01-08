@@ -5,7 +5,7 @@ import lombok.Setter;
 import java.util.List;
 
 @Getter @Setter
-public class GithubRepository {
+class GithubRepository {
     @JsonProperty(index = 0)
     private String name;
     @JsonProperty(index = 1)
