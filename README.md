@@ -39,7 +39,8 @@ When application container is running, open Postman and create new request. Dock
 
 Postman image for given endpoint:
 
-![img.png](img.png)
+<img width="1473" height="362" alt="image" src="https://github.com/user-attachments/assets/6795ec18-1fa9-47cc-a3b0-cb78b9f3cd27" />
+
 
 
 #### **API Responses:**
@@ -57,26 +58,30 @@ Postman image for given endpoint:
             ]
         }
     ]   
-![img_1.png](img_1.png)
+<img width="592" height="362" alt="1" src="https://github.com/user-attachments/assets/b85408da-f02c-4bae-8430-322c97a16aac" />
+
 #### *Status: 404 NOT_FOUND*
     {
         "status": String,
         "message": String
     }
+<img width="458" height="86" alt="2" src="https://github.com/user-attachments/assets/0b68efa8-bbd5-4730-a4db-0d85a44b6c40" />
 
-![img_2.png](img_2.png)
+
 #### *Status: 429 TOO_MANY_REQUESTS*
     {
         "status": String,
         "message": String
     }
-![img_3.png](img_3.png)
+<img width="1084" height="74" alt="3" src="https://github.com/user-attachments/assets/23ceef23-d244-46fc-a038-63b90f4dceae" />
+
 #### *Status: 500 INTERNAL_SERVER_ERROR*
     {
         "status": String,
         "message": String
     }
-![img_4.png](img_4.png)
+<img width="828" height="80" alt="4 1" src="https://github.com/user-attachments/assets/a5be79d3-996e-483b-9724-95fccc833cea" />
+
 
 ## Requests Rate limits
 
