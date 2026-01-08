@@ -1,0 +1,19 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: "GitHub repository proxy"
+
+logging:
+  level:
+    io:
+      github:
+        patrykkukula:
+          github_repository_proxy: DEBUG
+
+github:
+  api:
+    base-url: "https://api.github.com"
+    repos-path: "/users/%s/repos?type=owner"
+    branches-path: "/repos/%s/%s/branches"
